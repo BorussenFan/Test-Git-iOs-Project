@@ -13,6 +13,7 @@
 		529E768E198033A2000F6545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529E768C198033A2000F6545 /* Main.storyboard */; };
 		529E7690198033A2000F6545 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529E768F198033A2000F6545 /* Images.xcassets */; };
 		529E769C198033A2000F6545 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 529E769B198033A2000F6545 /* Git_TestTests.m */; };
+		529E76A71980420F000F6545 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 529E76A61980420F000F6545 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		529E7695198033A2000F6545 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		529E769A198033A2000F6545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529E769B198033A2000F6545 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		529E76A51980420F000F6545 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		529E76A61980420F000F6545 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				529E7689198033A2000F6545 /* ViewController.h */,
 				529E768A198033A2000F6545 /* ViewController.m */,
 				529E768C198033A2000F6545 /* Main.storyboard */,
+				529E76A51980420F000F6545 /* test.h */,
+				529E76A61980420F000F6545 /* test.m */,
 				529E768F198033A2000F6545 /* Images.xcassets */,
 				529E7682198033A2000F6545 /* Supporting Files */,
 			);
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				529E768B198033A2000F6545 /* ViewController.m in Sources */,
+				529E76A71980420F000F6545 /* test.m in Sources */,
 				529E7688198033A2000F6545 /* AppDelegate.m in Sources */,
 				529E7685198033A2000F6545 /* main.m in Sources */,
 			);
